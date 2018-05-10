@@ -2,14 +2,21 @@
 .title{
   color: white;
   text-align: center;
-  background: #418ba7eb;
+  background: #fc7f32d1;
   padding: 70px 0;
   h1 {
     margin: 0;
     padding: 9px;
-    font-size: 39px;
+    font-size: 49px;
   }
 }
+
+.first-line{
+  display: flex;
+  justify-content: center;
+}
+
+.name{ color: #4333fc; }
 
 .my-photo{
   width: 280px;
@@ -22,7 +29,9 @@
   text-align: center;
   width: 450px;
   margin: 25px auto 0;
-  h6 { margin-top: 35px; }
+  h6 {
+    margin-top: 35px;
+    font-size: 22px; }
 }
 
 .portfolio{
