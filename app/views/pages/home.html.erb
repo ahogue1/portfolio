@@ -4,13 +4,72 @@
       <h1>Hello, I'm</h1>
       <h1 class="name">Amy Hogue.</h1>
     </div>
-    <h1>I'm a full stack developer.</h1>
+    <h1>I'm a Full Stack Developer.</h1>
     <%= image_tag 'amy.jpg', class: "my-photo"%>
     <div class="title-description">
-      <h6>I am looking for a job, but I don't want to work remotely. I'm part of the Colorado conspiracy. You don't need to join us, you don't have a choice. A 3 year old named me Yam when he misspelled 'Amy', it stuck.</h6>
+      <p>I am looking for a job, but I don't want to work remotely. I'm part of the Colorado conspiracy. You don't need to join us, you don't have a choice. A three-year-old boy misspelled 'Amy' and gave me the name 'Yam.'  It stuck.</p>
     </div>
   </div>
   <div class="portfolio">
-  <h1>The Goods</h1>
+    <h1>The Goods</h1>
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <%= link_to "https://who-cooks.herokuapp.com/",  target: :_blank do %>
+          <%= image_tag 'who-cooks.png', class: "project-photos"%>
+        <% end %>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <%= link_to "https://www.lealo.io/",  target: :_blank do %>
+          <%= image_tag 'lealo.png', class: "project-photos"%>
+          <% end %>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <%= link_to "http://www.denver-pools.com/",  target: :_blank do %>
+          <%= image_tag 'denver-pools.png', class: "project-photos"%>
+        <% end %>
+      </div>
+    </div>
+
   </div>
+
+  <div class="details">
+    <h1>The Magic</h1>
+
+    <div class="row third-row">
+      <div>
+        <i class="devicon-bootstrap-plain tool-icon"></i>
+        <p>Bootstrap</p>
+      </div>
+
+      <div>
+        <i class="devicon-ruby-plain tool-icon"></i>
+        <p>Ruby</p>
+      </div>
+
+      <div>
+        <i class="devicon-javascript-plain tool-icon"></i>
+        <p>JavaScript</p>
+      </div>
+    </div>
+
+    <div class="row second-row">
+      <div>
+        <i class="devicon-css3-plain tool-icon"></i>
+        <p>CSS</p>
+      </div>
+
+      <div>
+        <i class="devicon-html5-plain tool-icon"></i>
+        <p>HTML</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <i class="devicon-rails-plain tool-icon"></i>
+      <p>Ruby on Rails</p>
+    </div>
+    </div>
+
+  </div>
+  <h1>My Digits</h1>
 </div>
