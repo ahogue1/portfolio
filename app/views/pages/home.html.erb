@@ -7,25 +7,34 @@
     <h1>I'm a Full Stack Developer.</h1>
     <%= image_tag 'amy.jpg', class: "my-photo"%>
     <div class="title-description">
-      <p>I am looking for a job, but I don't want to work remotely. I'm part of the Colorado conspiracy. You don't need to join us, you don't have a choice. A three-year-old boy misspelled 'Amy' and gave me the name 'Yam.'  It stuck.</p>
+      <p>
+         A three-year-old misspelled 'Amy' and gave me the nickname 'Yam.' It stuck. I am a Jill of all trades. I dug on an archaeology site in Peru. I taught English to monks in Nepal. I did clinical research, social work, nutrition counseling, taught ESL in a jail and now I joyfully code the full stack. I'm looking to work with people who value life experience and diversity so I can work with badass coworkers with grit and creativity and we can build cool stuff in weird ways.
+      </p>
     </div>
   </div>
   <div class="portfolio">
-    <h1>The Goods</h1>
+    <h2>The Goods</h2>
     <div class="row">
       <div class="col-xs-12 col-md-4">
         <%= link_to "https://who-cooks.herokuapp.com/",  target: :_blank do %>
-          <%= image_tag 'who-cooks.png', class: "project-photos"%>
+          <div class="project-photos" , style="background-image: url(<%= image_path("who-cooks.png")%> );">
+            <p>Rails</p>
+          </div>
         <% end %>
       </div>
       <div class="col-xs-12 col-md-4">
         <%= link_to "https://www.lealo.io/",  target: :_blank do %>
-          <%= image_tag 'lealo.png', class: "project-photos"%>
+          <div class="project-photos" , style="background-image: url(<%= image_path("lealo.png")%> );">
+              <p class="content">Rails</p>
+          </div>
+
           <% end %>
       </div>
       <div class="col-xs-12 col-md-4">
         <%= link_to "http://www.denver-pools.com/",  target: :_blank do %>
-          <%= image_tag 'denver-pools.png', class: "project-photos"%>
+          <div class="project-photos" , style="background-image: url(<%= image_path("denver-pools.png")%> );">
+            <p>Rails</p>
+          </div>
         <% end %>
       </div>
     </div>
@@ -33,9 +42,9 @@
   </div>
 
   <div class="details">
-    <h1>The Magic</h1>
+    <h2>The Magic</h2>
 
-    <div class="row third-row">
+    <div class="row third-row tool-row">
       <div>
         <i class="devicon-bootstrap-plain tool-icon"></i>
         <p>Bootstrap</p>
@@ -52,7 +61,7 @@
       </div>
     </div>
 
-    <div class="row second-row">
+    <div class="row second-row tool-row">
       <div>
         <i class="devicon-css3-plain tool-icon"></i>
         <p>CSS</p>
@@ -64,12 +73,14 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row tool-row">
       <i class="devicon-rails-plain tool-icon"></i>
       <p>Ruby on Rails</p>
     </div>
     </div>
 
   </div>
-  <h1>My Digits</h1>
+  <div class="contact">
+    <h2>My Digits</h2>
+  </div>
 </div>
