@@ -27,7 +27,7 @@
 
 .title-description{
   text-align: center;
-  width: 450px;
+  width: 523px;
   margin: 25px auto 0;
   p{
     margin-top: 35px;
@@ -37,14 +37,32 @@
 .portfolio{
   text-align: center;
   padding: 75px;
-  h1{ color: #544f4f; }
+  h2{
+    color: #544f4f;
+    font-size: 46px;
+  }
+}
+
+#who-cooks{
+  height: 300px;
 }
 
 .project-photos{
   height: 282px;
-  margin-top: 34px;
+  margin: 34px auto;
   box-shadow: 2px 1px 14px lightgray;
   border: 4px solid white;
+  background-size: cover;
+  width: 313px;
+}
+
+.project-photos:hover{
+   background-color: gray;
+}
+
+.content{
+  z-index: -1;
+  position:relative;
 }
 
 .details{
@@ -52,7 +70,8 @@
   padding: 40px;
   background: $light-gray;
   color: #544f4f;
-  h1{
+  h2{
+    font-size: 46px;
     margin-bottom: 66px;
    }
 }
@@ -68,3 +87,16 @@
   display: flex;
   justify-content: center;
   }
+
+.tool-row{
+    margin-top: 20px;
+  }
+
+.contact{
+  text-align: center;
+  h2{
+    font-size: 46px;
+    color: #544f4f;
+  }
+
+}
