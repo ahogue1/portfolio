@@ -13,32 +13,24 @@
     </div>
   </div>
   <div class="portfolio">
-    <h2>The Goods</h2>
+    <h2>Sample The Goods</h2>
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <%= link_to "https://who-cooks.herokuapp.com/",  target: :_blank do %>
-          <div class="project-photos" , style="background-image: url(<%= image_path("who-cooks.png")%> );">
-            <p>Rails</p>
-          </div>
+         <%= link_to "https://who-cooks.herokuapp.com/",  target: :_blank do %>
+          <%= image_tag 'who-cooks.png', class: "project-photos"%>
         <% end %>
       </div>
       <div class="col-xs-12 col-md-4">
         <%= link_to "https://www.lealo.io/",  target: :_blank do %>
-          <div class="project-photos" , style="background-image: url(<%= image_path("lealo.png")%> );">
-              <p class="content">Rails</p>
-          </div>
-
-          <% end %>
+           <%= image_tag 'lealo.png', class: "project-photos"%>
+        <% end %>
       </div>
       <div class="col-xs-12 col-md-4">
         <%= link_to "http://www.denver-pools.com/",  target: :_blank do %>
-          <div class="project-photos" , style="background-image: url(<%= image_path("denver-pools.png")%> );">
-            <p>Rails</p>
-          </div>
+          <%= image_tag 'denver-pools.png', class: "project-photos"%>
         <% end %>
       </div>
     </div>
-
   </div>
 
   <div class="details">
