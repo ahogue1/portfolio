@@ -15,21 +15,29 @@
   <div class="portfolio">
     <h2>Sample The Goods</h2>
     <div class="row">
+
       <div class="col-xs-12 col-md-4">
          <%= link_to "https://who-cooks.herokuapp.com/",  target: :_blank do %>
           <%= image_tag 'who-cooks.png', class: "project-photos"%>
         <% end %>
+        <p>Opensource project</p>
       </div>
+
       <div class="col-xs-12 col-md-4">
         <%= link_to "https://www.lealo.io/",  target: :_blank do %>
            <%= image_tag 'lealo.png', class: "project-photos"%>
         <% end %>
+        <p>Bootcamp Final Project</p>
       </div>
+
       <div class="col-xs-12 col-md-4">
         <%= link_to "http://www.denver-pools.com/",  target: :_blank do %>
           <%= image_tag 'denver-pools.png', class: "project-photos"%>
         <% end %>
+
+        <p>Built with rails, customized for client</p>
       </div>
+
     </div>
   </div>
 
@@ -72,7 +80,14 @@
     </div>
 
   </div>
-  <div class="contact">
-    <h2>My Digits</h2>
+  <div class="contact", style="background-image: url(<%= image_path("phone.jpg")%> );">
+
+    <div class="contact-box">
+      <h2>Drop a Line</h2>
+      <div class="info">
+        <a href="tel:3033458423" class="links"> Phone: 303-345-8422</a><br>
+        <a href="mailto:hogue.a@gmail.com" class="links">Email: hogue.a@gmail.com</a>
+      </div>
+    </div>
   </div>
 </div>
