@@ -16,7 +16,7 @@
   justify-content: center;
 }
 
-.name{ color: #4333fc; }
+.name{ color: white; }
 
 .my-photo{
   width: 280px;
@@ -61,6 +61,28 @@
 .project-photos:hover{
   box-shadow: 2px 1px 14px $orange;
   padding: 6px;
+}
+
+.project-info{
+  height: 99px;
+  width: 273px;
+  margin: 25px auto;
+}
+
+.repo-links p{
+  margin: 0
+}
+
+.repo-links{
+  color: white;
+  display: flex;
+  margin: 70px auto 0;
+  padding: 6px 4px 6px;
+  width: 120px;
+}
+
+.repo-links:hover{
+  text-decoration: none;
 }
 
 .content{
@@ -123,3 +145,9 @@
     opacity: 1 !important;
   }
 }
+
+.git-icon{
+  font-size: 22px;
+  margin: -2px 4px 0px;
+}
+

@@ -17,22 +17,32 @@
     <div class="row">
 
       <div class="col-xs-12 col-md-4">
-         <%= link_to "https://who-cooks.herokuapp.com/",  target: :_blank do %>
+         <%= link_to "https://who-cooks.herokuapp.com/", target: :_blank do %>
           <%= image_tag 'who-cooks.png', class: "project-photos"%>
         <% end %>
-        <p>Opensource project</p>
 
+        <div class="project-info">
+          <p>Who-Cooks: An open source project that helps a user create a weekly meal planner with other users, search save recipes to the group calendar</p>
+        </div>
 
-        <%= link_to "(peep the code)", "https://github.com/ahogue1/who-cooks",  target: :_blank %>
+        <%= link_to "https://github.com/ahogue1/who-cooks", class: "repo-links btn btn-primary", target: :_blank do %>
+          <p>Visit Repo</p>
+          <i class="devicon-github-plain git-icon"></i>
+        <% end %>
       </div>
 
       <div class="col-xs-12 col-md-4">
         <%= link_to "https://www.lealo.io/",  target: :_blank do %>
            <%= image_tag 'lealo.png', class: "project-photos"%>
         <% end %>
-        <p>Bootcamp Final Project</p>
+        <div class="project-info">
+          <p>Lealo: The Bootcamp Final Project, a marketplace platform for teachers to post lessons and students to book classes</p>
+        </div>
 
-        <%= link_to "(peep the code)", "https://github.com/mbrien12/lealo",  target: :_blank %>
+        <%= link_to "https://github.com/mbrien12/lealo", class: "repo-links btn btn-primary",  target: :_blank do %>
+          <p>Visit Repo</p>
+          <i class="devicon-github-plain git-icon"></i>
+          <% end %>
       </div>
 
       <div class="col-xs-12 col-md-4">
@@ -40,9 +50,15 @@
           <%= image_tag 'denver-pools.png', class: "project-photos"%>
         <% end %>
 
-        <p>Built with rails, customized for client</p>
+        <div class="project-info">
+          <p>Denver-Pools: Open source, custom-built, Rails website for a client</p>
+        </div>
 
-          <%= link_to "(peep the code)", "https://github.com/ahogue1/denver-pool",  target: :_blank %>
+          <%= link_to "https://github.com/ahogue1/denver-pool", class: "repo-links btn btn-primary",  target: :_blank do %>
+            <p>Visit Repo</p>
+            <i class="devicon-github-plain git-icon"></i>
+          <% end %>
+
       </div>
 
     </div>
