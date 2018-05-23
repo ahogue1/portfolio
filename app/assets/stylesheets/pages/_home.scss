@@ -151,3 +151,84 @@
   margin: -2px 4px 0px;
 }
 
+
+
+
+//----------mobile views--------------------------------------------
+//------------------------------------------------------------------
+
+
+
+@media screen and (max-width: 600px){
+
+  //-------- title section ------------------------------------------
+  .title{
+    padding: 37px 0;
+    h1{
+      font-size: 30px;
+      padding: 0px;
+    }
+    p{ font-size: 18px; }
+  }
+
+
+  .my-photo {
+    width: 212px;
+    margin: 21px;
+  }
+
+  .title-description{
+    width: 229px;
+  }
+
+  //------------portfolio section ---------------------------------
+
+  .portfolio{
+    padding: 43px 0;
+  }
+
+  .project-photos{
+    height: 262px;
+    width: 282px;
+  }
+
+  .project-info{
+    height: auto;
+  }
+
+  .repo-links{
+    margin: 23px auto 0;
+  }
+
+  .details h2 {
+    margin-bottom: 40px;
+  }
+
+//------------- dev tools section ----------------------------------
+
+  .tool-row{
+    margin: 0;
+  }
+
+  .tool-icon{
+    font-size: 59px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .third-row, .second-row{
+    display: block;
+  }
+
+  .mobile-container{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  //--------------contact information section ---------------------
+
+  .contact-box{
+    padding: 47px 46px;
+    text-align: center;
+  }
+}

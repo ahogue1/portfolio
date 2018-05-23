@@ -1,9 +1,6 @@
 <div class="containter">
   <div class="title">
-    <div class="first-line">
-      <h1>Hello, I'm</h1>
-      <h1 class="name">Amy Hogue.</h1>
-    </div>
+    <h1>Hello, I'm Amy Hogue.</h1>
     <h1>I'm a Full Stack Developer.</h1>
     <%= image_tag 'amy.jpg', class: "my-photo"%>
     <div class="title-description">
@@ -16,7 +13,7 @@
     </div>
   </div>
   <div class="portfolio">
-    <h2>Sample The Goods</h2>
+    <h2>Porfolio</h2>
     <div class="row">
 
       <div class="col-xs-12 col-md-4">
@@ -70,40 +67,45 @@
   <div class="details">
     <h2>The Magic</h2>
 
-    <div class="row third-row tool-row">
-      <div>
-        <i class="devicon-bootstrap-plain tool-icon"></i>
-        <p>Bootstrap</p>
+    <div class="mobile-container">
+      <div class="mobile-row">
+        <div class="row third-row tool-row">
+          <div>
+            <i class="devicon-bootstrap-plain tool-icon"></i>
+            <p>Bootstrap</p>
+          </div>
+
+          <div>
+            <i class="devicon-ruby-plain tool-icon"></i>
+            <p>Ruby</p>
+          </div>
+
+          <div>
+            <i class="devicon-javascript-plain tool-icon"></i>
+            <p>JavaScript</p>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <i class="devicon-ruby-plain tool-icon"></i>
-        <p>Ruby</p>
-      </div>
+      <div class="mobile-row">
+        <div class="row second-row tool-row">
+          <div>
+            <i class="devicon-css3-plain tool-icon"></i>
+            <p>CSS</p>
+          </div>
 
-      <div>
-        <i class="devicon-javascript-plain tool-icon"></i>
-        <p>JavaScript</p>
-      </div>
-    </div>
+          <div>
+            <i class="devicon-html5-plain tool-icon"></i>
+            <p>HTML</p>
+          </div>
+        </div>
 
-    <div class="row second-row tool-row">
-      <div>
-        <i class="devicon-css3-plain tool-icon"></i>
-        <p>CSS</p>
+          <div class="row tool-row">
+            <i class="devicon-rails-plain tool-icon"></i>
+            <p>Ruby on Rails</p>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <i class="devicon-html5-plain tool-icon"></i>
-        <p>HTML</p>
-      </div>
-    </div>
-
-    <div class="row tool-row">
-      <i class="devicon-rails-plain tool-icon"></i>
-      <p>Ruby on Rails</p>
-    </div>
-    </div>
 
   </div>
   <div class="contact", style="background-image: url(<%= image_path("phone.jpg")%> );">
