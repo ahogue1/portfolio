@@ -77,7 +77,7 @@
 .repo-links{
   color: white;
   display: flex;
-  margin: 52px auto 84px;
+  margin: 38px auto 84px;
   padding: 6px;
   width: 126px;
 }
@@ -149,7 +149,13 @@
   margin: -2px 4px 0px;
 }
 
-
+@media screen and (max-width: 990px){
+  .portfolio{
+    padding: 43px 0;
+    width: 100%;
+    margin: 0;
+  }
+}
 
 
 //----------mobile views--------------------------------------------
@@ -181,9 +187,7 @@
 
   //------------portfolio section ---------------------------------
 
-  .portfolio{
-    padding: 43px 0;
-  }
+
 
   .project-photos{
     height: 262px;
@@ -209,19 +213,14 @@
   }
 
   .tool-icon{
-    font-size: 59px;
-    margin: 0;
-    padding: 0;
+    font-size: 49px;
+    margin: 12px;
   }
 
   .third-row, .second-row{
     display: block;
   }
 
-  .mobile-container{
-    display: flex;
-    justify-content: space-around;
-  }
 
   //--------------contact information section ---------------------
 
