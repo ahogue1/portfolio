@@ -1,0 +1,57 @@
+ .portfolio {
+  text-align: center;
+  margin: 87px auto 0;
+  h2{
+    color: #544f4f;
+    font-size: 46px;
+  }
+}
+
+#who-cooks {
+  height: 300px;
+}
+
+.project-photos {
+  height: 230px;
+  margin: 34px auto;
+  box-shadow: 2px 1px 14px lightgray;
+  border: 4px solid white;
+  background-size: cover;
+  width: 256px;
+
+}
+
+
+.project-photos:hover {
+  box-shadow: 2px 1px 14px $orange;
+  padding: 6px;
+}
+
+.project-info {
+  height: 120px;
+  width: 273px;
+  margin: 25px auto;
+}
+
+.repo-links p{
+  margin: 0
+}
+
+.repo-links {
+  color: white;
+  display: flex;
+  margin: 38px auto 84px;
+  padding: 6px;
+  width: 126px;
+}
+
+.repo-links:hover {
+  text-decoration: none;
+}
+
+.my-repo {
+  margin-top: 38px;
+  background: #F4F4F4;
+  padding: 20px;
+  height: 100%;
+}

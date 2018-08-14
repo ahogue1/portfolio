@@ -1,0 +1,33 @@
+.content {
+  z-index: -1;
+  position:relative;
+}
+
+.details {
+  text-align: center;
+  padding: 40px;
+  background: $light-gray;
+  color: #544f4f;
+  h2 {
+    font-size: 46px;
+    margin-bottom: 32px;
+  }
+}
+
+.languages-subheading {
+  margin: 31px auto 62px;
+  width: 736px;
+}
+
+.tool-icon {
+  font-size: 74px;
+  margin: 40px;
+  color: $orange;
+  padding: 20px;
+}
+
+.tool-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -2,141 +2,27 @@
   <div class="title">
     <h1>Hello, I'm Amy Hogue.</h1>
     <h1>I'm a Full Stack Developer.</h1>
-    <%= image_tag 'amy.jpg', class: "my-photo"%>
+    <p>
+      A three-year-old misspelled 'Amy' and gave me the nickname 'Yam.' It stuck.
+    </p>
+    <%= image_tag 'profile.jpg', class: "my-photo"%>
     <div class="title-description">
       <p>
-         A three-year-old misspelled 'Amy' and gave me the nickname 'Yam.' It stuck.
+        I learned to code in Brazil.
       </p>
       <p>
-       I am now joyfully coding the full stack, I build custom websites and fix broken ones. I have worked hard to learn clean code and I'm still growing. I'm looking to work with people who value life experiences and diversity so I can work with coworkers who show grit and creativity.
-    </div>
-  </div>
-  <div class="portfolio">
-    <h2>My Open Source Work</h2>
-
-    <div class="row">
-
-      <div class="col-xs-12 col-md-6">
-         <%= link_to "https://who-cooks.herokuapp.com/", target: :_blank do %>
-          <%= image_tag 'who-cooks.png', class: "project-photos"%>
-        <% end %>
-
-        <div class="project-info">
-          <p>Who-Cooks: An open source project using edamam API to help a user plan meals with other users, search for and then save recipes to the group calendar</p>
-        </div>
-
-        <%= link_to "https://github.com/ahogue1/who-cooks", class: "repo-links btn btn-primary", target: :_blank do %>
-          <p>Visit Repo</p>
-          <i class="devicon-github-plain git-icon"></i>
-        <% end %>
-      </div>
-
-      <div class="col-xs-12 col-md-6">
-        <%= link_to "https://www.lealo.io/",  target: :_blank do %>
-           <%= image_tag 'lealo.png', class: "project-photos"%>
-        <% end %>
-        <div class="project-info">
-          <p>Lealo: The Bootcamp Final Project, a marketplace platform for teachers to post lessons and students to book classes</p>
-        </div>
-
-        <%= link_to "https://github.com/mbrien12/lealo", class: "repo-links btn btn-primary",  target: :_blank do %>
-          <p>Visit Repo</p>
-          <i class="devicon-github-plain git-icon"></i>
-          <% end %>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <div class="col-xs-12 col-md-6">
-        <%= link_to "https://www.lealo.io/",  target: :_blank do %>
-           <%= image_tag 'chef-mate.png', class: "project-photos"%>
-        <% end %>
-        <div class="project-info">
-          <p>Chef-Mate: An open source project for home chefs to join in the sharing economy and local eaters to get a homecooked meal. </p>
-        </div>
-
-        <%= link_to "https://github.com/ahogue1/chef-mate", class: "repo-links btn btn-primary", target: :_blank do %>
-          <p>Visit Repo</p>
-          <i class="devicon-github-plain git-icon"></i>
-        <% end %>
-      </div>
-
-      <div class="col-xs-12 col-md-6">
-        <%= link_to "http://www.denver-pools.com/",  target: :_blank do %>
-          <%= image_tag 'denver-pools.png', class: "project-photos"%>
-        <% end %>
-
-        <div class="project-info">
-          <p>Denver-Pools: Open source, custom-built, Rails website for a client</p>
-        </div>
-
-          <%= link_to "https://github.com/ahogue1/denver-pool", class: "repo-links btn btn-primary",  target: :_blank do %>
-            <p>Visit Repo</p>
-            <i class="devicon-github-plain git-icon"></i>
-          <% end %>
-      </div>
-
+        I am joyfully coding the full stack from Denver and Mexico City, I build custom websites and fix broken ones. I have worked hard to learn clean code and I'm still growing. I'm looking to work with people who value life experiences and diversity so I can work with coworkers who show grit and creativity.
+      </p>
+      <p>
+        I'm currently based in Denver, Colorado. I love Denver, but I'm in a good place in life to relocate.
+      </p>
     </div>
   </div>
 
-  <div class="details">
-    <h2>My Magic</h2>
+  <%= render 'portfolio' %>
 
-    <div>
-      <div class="mobile-row">
-        <div class="row tool-row">
+  <%= render 'languages' %>
 
-
-          <div>
-            <i class="devicon-ruby-plain tool-icon"></i>
-            <p>Ruby</p>
-          </div>
-
-          <div>
-            <i class="devicon-javascript-plain tool-icon"></i>
-            <p>JavaScript</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mobile-row">
-        <div class="row tool-row">
-          <div>
-            <i class="devicon-css3-plain tool-icon"></i>
-            <p>CSS</p>
-          </div>
-
-          <div>
-            <i class="devicon-html5-plain tool-icon"></i>
-            <p>HTML</p>
-          </div>
-
-          <div>
-            <i class="devicon-bootstrap-plain tool-icon"></i>
-            <p>Bootstrap</p>
-          </div>
-
-        </div>
-
-          <div class="row tool-row">
-            <div>
-              <i class="devicon-rails-plain tool-icon"></i>
-              <p>Ruby on Rails</p>
-            </div>
-
-             <div>
-              <i class="devicon-react-plain tool-icon"></i>
-              <p>React</p>
-            </div>
-
-          </div>
-
-
-        </div>
-      </div>
-
-  </div>
   <div class="contact", style="background-image: url(<%= image_path("phone.jpg")%> );">
 
     <div class="contact-box">
@@ -147,4 +33,5 @@
       </div>
     </div>
   </div>
+
 </div>
