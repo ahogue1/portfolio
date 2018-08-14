@@ -38,3 +38,18 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 600px){
+  .tool-row {
+    margin: 0;
+  }
+
+  .tool-icon {
+    font-size: 49px;
+    margin: 12px;
+  }
+
+  .third-row, .second-row {
+    display: block;
+  }
+}

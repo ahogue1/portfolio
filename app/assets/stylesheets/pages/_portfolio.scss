@@ -63,3 +63,22 @@
     width: 317px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .project-photos {
+    height: 262px;
+    width: 282px;
+  }
+
+  .project-info {
+    height: auto;
+  }
+
+  .repo-links {
+    margin: 23px auto 0;
+  }
+
+  .details h2 {
+    margin-bottom: 40px;
+  }
+}
