@@ -31,3 +31,10 @@
   justify-content: center;
   margin-top: 20px;
 }
+
+
+@media screen and (max-width: 802px) {
+  .languages-subheading {
+    width: 100%;
+  }
+}
