@@ -1,7 +1,7 @@
 
 
 .post-container {
-  margin: 30px;
+  margin-top: 30px;
   max-width: 700px;
   h1, h2, h3, h4, h5, {
     font-family: 'Quicksand', sans-serif;
@@ -55,4 +55,10 @@
   height: 250px;
   margin-right: 3px;
   margin-bottom: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .post-container {
+    margin: 30px;
+  }
 }
