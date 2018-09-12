@@ -1,0 +1,21 @@
+#mexico-featured-photo {
+  background-position: bottom;
+  color: white;
+  padding: 100px;
+  h1 {
+    padding: 5px;
+    background: #252424a6;
+  }
+}
+
+
+@media screen and (max-width: 933px) {
+  #mexico-featured-photo {
+    padding: none;
+    color: black;
+    h1 {
+      background: none;
+      font-size: 9vh;
+    }
+  }
+}
