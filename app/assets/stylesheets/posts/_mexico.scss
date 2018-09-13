@@ -1,11 +1,13 @@
 #mexico-featured-photo {
   background-position: bottom;
-  color: white;
+  color: black;
   padding: 100px;
-  h1 {
-    padding: 5px;
-    background: #252424a6;
-  }
+  opacity: 0.85;
+
+}
+
+.banner-comment {
+  text-align: right;
 }
 
 .uniform-photo {

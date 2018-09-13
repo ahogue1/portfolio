@@ -1,1 +1,78 @@
-<h1>Indexxxxx</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="banner welcome-post-banner" id = "" style="background-image: url(<%= image_path('feature.jpg')%>);">
+
+      <div class="banner-heading">
+        <h1>Danger 2.0</h1>
+      </div>
+      <div class="banner-comment">
+        <p>(Photo: Rio de Janiero, Brazil 2017)</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="navbar-sticky navbar-filters">
+    <%= link_to "#home" do %>
+      <h4>About</h4>
+    <% end %>
+    <%= link_to "#contact" do %>
+      <h4>Contact</h4>
+    <% end %>
+    <%= link_to "#home" do %>
+      <h4>Sign Up For Notifactions</h4>
+    <% end %>
+    <%= link_to "#home" do %>
+      <h4>Jump to First Post</h4>
+    <% end %>
+    <%= link_to "#home" do %>
+      <h4>Jump to Newest Post</h4>
+    <% end %>
+  </div>
+
+<div class="container">
+  <div class="row tc">
+    <div id="about">
+
+      <div class="avatar blog-photo" id = "" style="background-image: url(<%= image_path('amy1.jpg')%>);"></div>
+      <p>I'm Amy Danger and this is the story of my struggle to be a person</p>
+    </div>
+  </div>
+  <div class="row">
+    <%= link_to post_path(id: '02-mexico'), class: "td-none" do %>
+      <div class="blog-links">
+        <%= image_tag 'posts/mexico/feature.jpg', class: "preview-image"  %>
+        <div>
+          <div class= "link-title">
+            <h3 class="post-links">Mexico y Yo</h3>
+            <h6>Published: Sept. 15th, 2018</h6>
+          </div>
+          <p>Ever since I was really young I’ve always had Mexican friends and always loved the closeness and warmth of the culture. I can remember when I was about 4 or 5 a friend’s mom taught me the word “agua” in Spanish and I was AMAZED...</p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="row">
+    <%= link_to post_path(id: '01-welcome'), class: "td-none" do %>
+      <div class="blog-links">
+        <%= image_tag 'posts/welcome/feature.jpg', class: "preview-image"  %>
+        <div>
+          <div class= "link-title">
+            <h3 class="post-links">Danger 2.0 - Welcome</h3>
+            <h6>Published: Sept. 8th, 2018</h6>
+          </div>
+          <p>You probably know some of my story, but I promise you don't know all of it. I'll give you a quick recap of the past year and maybe fill in the details later.</p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+
+
+  <div class="row" id="contact">
+    <video autoplay loop controls >
+      <source src='http://res.cloudinary.com/ahg1/video/upload/ac_none,c_scale,h_511/v1536779314/IMG_1871_efkxv7.mov' type="video/mp4" fit="cover">
+    </video>
+  </div>
+</div>
