@@ -86,11 +86,18 @@
 
 @media screen and (max-width: 900px) {
   #about{
-    width: unset;
+    width: auto;
+  }
+
+  .preview-image {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
   }
 
   .blog-links {
     display: block;
+    text-align: center;
   }
 
   .link-title {
