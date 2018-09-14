@@ -59,14 +59,16 @@
 <div class="container">
   <div class="row nav-links">
 
+    <%= link_to post_path(id: '01-welcome') do %>
+      <i class="fa fa-arrow-left nav-arrow" aria-hidden="true"></i>
+      <h4>Previous Post</h4>
+    <% end %>
+
     <%= link_to blog_path do %>
       <i class="fa fa-home nav-arrow" aria-hidden="true"></i>
       <h4>Home</h4>
     <% end %>
 
-     <%= link_to post_path(id: '01-welcome') do %>
-      <h4>Previous Post</h4>
-      <i class="fa fa-arrow-right nav-arrow" aria-hidden="true"></i>
-    <% end %>
+
   </div>
 </div>
