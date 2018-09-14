@@ -15,7 +15,7 @@
   display: flex;
   box-shadow: 1px 2px 8px 1px #8080806b;
   border-radius: 6px;
-  padding: 26px;
+  padding: 10px;
   margin-top: 37px;
   margin-bottom: 37px;
   color: #5d5d5d;
@@ -33,9 +33,9 @@
 }
 
 .preview-image {
-  margin-right: 10px;
-  height: 84px;
-  width: 147px;
+  margin-right: 13px;
+  height: 109px;
+  width: 177px;
 }
 
 .navbar-sticky{
@@ -44,14 +44,18 @@
   top: 0;
   z-index: 2;
   width: 100%;
-  padding: 0px 30px;
+  padding: 0px 100px;
   display: flex;
-  background-color: white;
+  background-color: black;
   justify-content: space-between;
-  a{ font-size: 14px; }
+  a {
+    font-size: 14px;
+    color: #599fc5;
+  }
   h4{ font-size: 18px;}
   a:hover {
     text-decoration: none;
+    color: white;
   }
 }
 
@@ -84,6 +88,29 @@
   border-radius: 50%
 }
 
+.banner-comment-home {
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  a {
+    display: flex;
+    color: #599fc5;
+     }
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  color: #4e788e;
+}
+
+.nav-arrow {
+  margin: 17px 4px;
+}
+
 @media screen and (max-width: 900px) {
   #about{
     width: auto;
@@ -102,5 +129,13 @@
 
   .link-title {
     display: block;
+  }
+
+  .navbar-sticky {
+    padding: 0 10px;
+  }
+
+  .navbar-sticky h4 {
+    font-size: 13px;
   }
 }
