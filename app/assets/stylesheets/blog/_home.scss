@@ -44,10 +44,9 @@
   top: 0;
   z-index: 2;
   width: 100%;
-  padding: 0px 100px;
   display: flex;
   background-color: black;
-  justify-content: space-between;
+  justify-content: space-evenly;
   a {
     font-size: 14px;
     color: #599fc5;
@@ -120,6 +119,7 @@
     max-width: 350px;
     width: 100%;
     height: auto;
+    margin-bottom: 7px;
   }
 
   .blog-links {
@@ -136,6 +136,6 @@
   }
 
   .navbar-sticky h4 {
-    font-size: 13px;
+    font-size: 15px;
   }
 }

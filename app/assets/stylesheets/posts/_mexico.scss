@@ -18,6 +18,15 @@
 
 
 @media screen and (max-width: 700px) {
+
+  .banner-heading h1 {
+    font-size: 50px;
+  }
+
+  .banner-comment {
+    text-align: center;
+  }
+
   #mexico-featured-photo {
     padding: none;
     color: black;
