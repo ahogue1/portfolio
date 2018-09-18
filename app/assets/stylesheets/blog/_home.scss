@@ -16,10 +16,10 @@
   box-shadow: 1px 2px 8px 1px #8080806b;
   border-radius: 6px;
   padding: 10px;
-  margin-top: 37px;
-  margin-bottom: 37px;
   color: #5d5d5d;
   text-align: left;
+  width: 65%;
+  margin: 35px auto;
   h3 {
     margin: 0;
   }
@@ -36,6 +36,7 @@
   margin-right: 13px;
   height: 109px;
   width: 177px;
+  border-radius: 3px;
 }
 
 .navbar-sticky{
@@ -110,6 +111,39 @@
   margin: 17px 4px;
 }
 
+.sign-up-btn {
+  background: #599fc5;
+  border-color: white;
+  border-radius: 4px;
+}
+
+.sign-up-btn:hover {
+  background: #4e788e;
+  border-color: white;
+}
+
+.sign-up-btn:active {
+  background: #4e788e;
+}
+
+.sign-up-btn:focus {
+  background: #4e788e;
+}
+
+.sign-up-btn:visited {
+  background: #4e788e;
+}
+
+.sign-up-btn:active:focus {
+  background: #4e788e;
+}
+
+#subscribe{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 900px) {
   #about{
     width: auto;
@@ -125,6 +159,7 @@
   .blog-links {
     display: block;
     text-align: center;
+    width: auto;
   }
 
   .link-title {
