@@ -80,6 +80,10 @@
   text-align: center;
 }
 
+.tr {
+  text-align: right;
+}
+
 .avatar {
   height: 150px;
   width: 150px;
@@ -185,10 +189,6 @@
     margin: 30px 0;
   }
 
-  .banner-heading {
-    margin-top: 100px;
-  }
-
   .preview-image {
     max-width: 350px;
     width: 100%;
@@ -213,4 +213,9 @@
   .navbar-sticky h4 {
     font-size: 15px;
   }
+
+  .no-padding-container-fluid {
+    padding: 0;
+  }
+
 }

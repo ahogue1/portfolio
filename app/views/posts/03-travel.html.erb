@@ -18,7 +18,7 @@
       For 6 weeks I was in some random little town (Panajachel) with old ex-pats everywhere on the edge of the most beautiful lake ever (look, don't touch. It's really polluted). I lived in this sick house with an entire freaking secret garden and a little stream running through it. A gardener named Juan took care of all of it and his dog Paloma was a delightful little weirdo. I spent my weekends hiking volcanoes and exploring the very different towns around the lake.
     </p>
 
-    <div class="container-fluid">
+    <div class="container-fluid no-padding-container-fluid">
       <div class="row photo-row">
         <%= image_tag 'https://res.cloudinary.com/ahg1/image/upload/w_1332,h_1375/v1539877755/IMG_6332_mmvm75.jpg', class: "standard-photo", 'data-toggle':"tooltip", title:"pana"%>
         <%= image_tag 'https://res.cloudinary.com/ahg1/image/upload/w_1332,h_1375/v1539878763/IMG_6945_icfmqo.jpg', class: "standard-photo"%>
@@ -93,7 +93,7 @@
     <% end %>
 
     <%= link_to post_path(id: '04-tinfoil') do %>
-      <h4>Next Post</h4>
+      <h4 class="tr">Next Post</h4>
       <i class="fa fa-arrow-right nav-arrow" aria-hidden="true"></i>
     <% end %>
 
