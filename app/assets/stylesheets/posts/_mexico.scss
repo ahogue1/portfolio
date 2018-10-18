@@ -16,6 +16,12 @@
   margin-bottom: 5px;
 }
 
+#cholula {
+  width: 100%;
+  height: 738px;
+  background-size: cover;
+  background-position: center;
+}
 
 @media screen and (max-width: 700px) {
 
@@ -34,5 +40,12 @@
       background: none;
       font-size: 9vh;
     }
+  }
+
+  #cholula {
+    width: 100%;
+    height: 317px;
+    background-size: cover;
+    background-position: center;
   }
 }

@@ -1,0 +1,50 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="banner welcome-post-banner" id = "mexico-featured-photo" style="background-image: url(<%= image_path('http://res.cloudinary.com/ahg1/image/upload/v1536893874/feature_bu5j7o.jpg')%>);">
+    </div>
+  <div class="banner-comment"><p>(Photo: Mexico City a.k.a. CDMX - 2018)</p></div>
+</div>
+
+<div class="container post-container">
+  <div class="row">
+    <div class="banner-heading">
+      <h1>What I've Got</h1>
+    </div>
+
+    <p>
+      Guatemala was the shiiiiiiit. It was the SHIT, guys.
+    </p>
+    <p>
+      For 6 weeks I was in some random little town (Panajachel) with old ex-pats everywhere on the edge of the most beautiful lake ever (look, don't touch. It's really polluted). I lived in this sick house with an entire freaking secret garden and a little stream running through it. A gardener named Juan took care of all of it and his dog Paloma was a delightful little weirdo. I spent my weekends hiking volcanoes and exploring the very different towns around the lake.
+    </p>
+
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row photo-row">
+    <%= image_tag 'http://res.cloudinary.com/ahg1/image/upload/v1536893870/tacos2_trrvil.jpg', class: "uniform-photo"%>
+    <%= image_tag 'http://res.cloudinary.com/ahg1/image/upload/c_fill,e_auto_brightness,h_375,w_332/v1536893875/tacos3_jw0cti.jpg', class: "uniform-photo"%>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row nav-links">
+
+    <%= link_to post_path(id: '02-mexico') do %>
+      <i class="fa fa-arrow-left nav-arrow" aria-hidden="true"></i>
+      <h4>Previous Post</h4>
+    <% end %>
+
+    <%= link_to blog_path do %>
+      <i class="fa fa-home nav-arrow" aria-hidden="true"></i>
+      <h4>Home</h4>
+    <% end %>
+
+    <%= link_to post_path(id: '04-tinfoil') do %>
+      <h4>Next Post</h4>
+      <i class="fa fa-arrow-right nav-arrow" aria-hidden="true"></i>
+    <% end %>
+
+  </div>
+</div>

@@ -58,8 +58,24 @@
   margin-bottom: 16px;
 }
 
+.standard-photo{
+    width: 332px;
+    height: 281px;
+    margin-bottom: 5px;
+}
+
+.long-photo{
+  width: 100%;
+  max-width: 790px;
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 900px) {
   .post-container {
     margin: 30px;
+  }
+
+  .photo-row {
+    margin-top: 0;
   }
 }
