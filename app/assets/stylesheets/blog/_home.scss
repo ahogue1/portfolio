@@ -15,7 +15,7 @@
   display: flex;
   box-shadow: 1px 2px 8px 1px #8080806b;
   border-radius: 6px;
-  padding: 10px;
+  padding: 24px;
   color: #5d5d5d;
   text-align: left;
   width: 65%;
@@ -82,6 +82,10 @@
 
 .tr {
   text-align: right;
+}
+
+.mr-15 {
+  margin-right: 15px;
 }
 
 .avatar {
@@ -162,6 +166,7 @@
   justify-content: space-between;
   padding: 70px 10px;
 }
+
 
 .contact-me {
   text-align: center;

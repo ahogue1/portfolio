@@ -2,7 +2,7 @@
   <div class="row">
     <div class="banner welcome-post-banner" id = "" style="background-image: url(<%= image_path('https://res.cloudinary.com/ahg1/image/upload/c_crop,h_2000,w_4023/v1539105783/IMG_6340_mffmrc.jpg')%>);">
     </div>
-  <div class="banner-comment"><p>(Photo: Panajachel, Guatemala - May 2018)</p></div>
+  <div class="banner-comment mr-15"><p>(Photo: Panajachel, Guatemala - May 2018)</p></div>
 </div>
 
 <div class="container post-container">
@@ -84,7 +84,7 @@
 
     <%= link_to post_path(id: '02-mexico') do %>
       <i class="fa fa-arrow-left nav-arrow" aria-hidden="true"></i>
-      <h4>Previous Post</h4>
+      <h4>Older Post</h4>
     <% end %>
 
     <%= link_to blog_path do %>
@@ -93,7 +93,7 @@
     <% end %>
 
     <%= link_to post_path(id: '04-tinfoil') do %>
-      <h4 class="tr">Next Post</h4>
+      <h4 class="tr">Newer Post</h4>
       <i class="fa fa-arrow-right nav-arrow" aria-hidden="true"></i>
     <% end %>
 
