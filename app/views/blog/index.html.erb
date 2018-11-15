@@ -20,7 +20,7 @@
     <%= link_to "#home" do %>
       <h4 data-toggle="modal" data-target="#exampleModalCenter">Subscribe</h4>
     <% end %>
-    <%= link_to post_path(id: '04-tinfoil') do %>
+    <%= link_to post_path(id: '05-the-dead') do %>
       <h4>Newest Post</h4>
     <% end %>
   </div>
@@ -32,6 +32,22 @@
       <div class="avatar blog-photo" id = "" style="background-image: url(<%= image_path('amy1.jpg')%>);"></div>
       <p>I'm Amy Danger and this is the story of my struggle to be a person</p>
     </div>
+  </div>
+  <div class="row">
+    <%= link_to post_path(id: '05-the-dead'), class: "td-none" do %>
+      <div class="blog-links">
+        <%= video_tag 'https://res.cloudinary.com/ahg1/video/upload/v1542294529/IMG_7319_qwdena.mov', class: "preview-image", playsinline: true, loop: true, muted: true, autoplay: true %>
+        <div>
+          <div class= "link-title">
+            <h3 class="post-links">The Dead</h3>
+            <h6>Published: Nov. 15th, 2018</h6>
+          </div>
+          <p>
+             Alright I've been kind of losing my tourist steam, but I went all in for Dia de Muertos here in Mexico. Day of the dead, aka Día de Muertos here is not just Mexican Halloween...
+          </p>
+        </div>
+      </div>
+    <% end %>
   </div>
   <div class="row">
     <%= link_to post_path(id: '04-tinfoil'), class: "td-none" do %>
