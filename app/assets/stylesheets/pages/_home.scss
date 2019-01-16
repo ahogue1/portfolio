@@ -2,12 +2,15 @@
 .title {
   color: white;
   text-align: center;
+  // background-image: radial-gradient(farthest-side at -31% 92%, #48a54b, #0095dc, #0083bb, $blue);
   background: $orange;
+  // background-attachment: fixed;
   padding: 70px 0;
   h1 {
+    // color: $orange;
     margin: 0;
     padding: 9px;
-    font-size: 49px;
+    font-size: 54px;
   }
 }
 
@@ -20,7 +23,7 @@
 
 .my-photo {
   width: 325px;
-  border: solid white;
+  border-radius: 50%;
   margin: 34px 0 5px;
 }
 
@@ -35,6 +38,10 @@
 .title-description {
   text-align: left;
   margin: 25px auto 0;
+  h3 {
+    font-weight: bolder;
+    color: $orange;
+  }
   p{
     font-size: 19px; }
 }
@@ -49,7 +56,7 @@
   h2{
     margin: 12px 0;
     font-size: 46px;
-    color: black;
+    color: #f9c6ac;
   }
 }
 
@@ -60,7 +67,7 @@
 .contact-box {
   height: 100%;
   padding: 47px 200px;
-  background: #fb9661de;
+  background: #0029b187;
   text-align: right;
   a{
     color: white;

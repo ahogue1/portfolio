@@ -2,7 +2,7 @@
   text-align: center;
   margin: 87px auto 0;
   h2{
-    color: #544f4f;
+    color: $orange;
     font-size: 46px;
   }
 }
@@ -23,7 +23,7 @@
 
 
 .project-photos:hover {
-  box-shadow: 2px 1px 14px $orange;
+  box-shadow: 2px 1px 14px $blue;
   padding: 6px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .repo-links {
-  color: white;
+  color: $blue;
   display: flex;
   margin: 38px auto 84px;
   padding: 6px;
@@ -47,6 +47,7 @@
 }
 
 .repo-links:hover {
+  color: $orange;
   text-decoration: none;
 }
 
