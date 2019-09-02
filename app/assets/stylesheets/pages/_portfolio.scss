@@ -23,7 +23,7 @@
 
 
 .project-photos:hover {
-  box-shadow: 2px 1px 14px $blue;
+  box-shadow: 2px 1px 14px $orange;
   padding: 6px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .repo-links {
-  color: $blue;
+  color: $orange;
   display: flex;
   margin: 38px auto 84px;
   padding: 6px;
@@ -47,7 +47,7 @@
 }
 
 .repo-links:hover {
-  color: $orange;
+  color: #33333;
   text-decoration: none;
 }
 
